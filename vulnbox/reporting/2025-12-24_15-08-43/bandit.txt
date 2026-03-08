@@ -1,0 +1,16 @@
+VulnBox Report: Bandit
+Target: C:\Users\User\Desktop\vulnbox
+Min severity: LOW
+Total issues: 10
+Shown issues: 10
+
+LOW/MEDIUM B105 Possible hardcoded password: 'admin123' (.\test\demo.py:1)
+LOW/HIGH B404 Consider possible security implications associated with the subprocess module. (.\vulnbox\scanners\bandit_scan.py:4)
+LOW/HIGH B603 subprocess call - check for execution of untrusted input. (.\vulnbox\scanners\bandit_scan.py:26)
+LOW/HIGH B404 Consider possible security implications associated with the subprocess module. (.\vulnbox\scanners\pip_audit.py:4)
+LOW/HIGH B603 subprocess call - check for execution of untrusted input. (.\vulnbox\scanners\pip_audit.py:38)
+LOW/HIGH B112 Try, Except, Continue detected. (.\vulnbox\scanners\secrets.py:31)
+LOW/HIGH B404 Consider possible security implications associated with the subprocess module. (.\vulnbox_legacy.py:10)
+LOW/HIGH B603 subprocess call - check for execution of untrusted input. (.\vulnbox_legacy.py:318)
+LOW/HIGH B603 subprocess call - check for execution of untrusted input. (.\vulnbox_legacy.py:443)
+LOW/HIGH B112 Try, Except, Continue detected. (.\vulnbox_legacy.py:566)

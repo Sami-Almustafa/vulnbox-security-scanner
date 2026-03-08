@@ -1,0 +1,4 @@
+VulnBox Report: pip-audit
+Target: C:\Users\User\Desktop\vulnbox
+Mode: requirements file: requirements.txt
+Total vulnerabilities: 0
